@@ -1,0 +1,27 @@
+.container {
+  display:flex;
+  justify-content:space-between;
+}
+
+.movie {
+  width:200px;
+  text-align:center;
+}
+
+.movie img {
+  width: 200px;
+  height:250px;
+
+}
+
+.logo {
+  width:300px;
+  height:300px;
+
+}
+
+.logoDad {
+  display:flex;
+  justify-content: center;
+
+}

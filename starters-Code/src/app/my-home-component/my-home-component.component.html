@@ -1,0 +1,16 @@
+<div class="logoDad">
+  <img class="logo" src="https://cdn-images-1.medium.com/max/1200/1*69RcxrWXuk385lSxkIYYLA.png">
+ 
+</div>
+<h1 style="text-align: center;">CINEMA</h1>
+
+<div class="container">
+<div class="movie" *ngFor="let movie of movieList">
+  <p>Room {{movie.room}}</p>
+  <img class="card-img-top" [src]="movie.poster" alt="">
+  <div class="card-body">
+    <p>{{movie.title}}</p>
+    <a [routerLink]="['/movie', movie.id]" class="btn btn-primary">Details</a>
+ </div>
+</div>
+</div>
